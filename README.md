@@ -22,6 +22,7 @@
 
 - **Unique BLE advertising names per board**  
   In OTA DFU mode, devices advertise using a board-specific name instead of the generic `AdaDFU`:
+  - **Heltec T114** → `Thinknode_M1`
   - **Heltec T114** → `T114_DFU`
   - **ProMicro NRF52840** → `PROM_DFU`
   - **T1000e** → `T1KE_DFU`
@@ -34,6 +35,7 @@
 
 ## Boards supported
 
+- Elecrow Thinknode M1
 - Heltec Automation Mesh Node T114 / HT-nRF5262
 - Nologo ProMicro NRF52840 (aka SuperMini NRF52840)
 - Seeed Studio SenseCAP Card Tracker T1000-E
