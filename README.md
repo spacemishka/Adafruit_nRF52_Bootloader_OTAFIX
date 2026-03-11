@@ -22,7 +22,7 @@
 
 - **Unique BLE advertising names per board**  
   In OTA DFU mode, devices advertise using a board-specific name instead of the generic `AdaDFU`:
-  - **Elecrow Thinknode M1** → `Thinknode_M1`
+  - **Elecrow Thinknode M1** → `Thinknode_M1_OTA`
   - **Heltec T114** → `T114_DFU`
   - **ProMicro NRF52840** → `PROM_DFU`
   - **T1000e** → `T1KE_DFU`
