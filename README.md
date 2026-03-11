@@ -1,5 +1,6 @@
 ## THIS IS REPSOITORY IS SPECIFICALLY FOR THE ELECROW THINKNODE M1
 
+# This software is provided "as is", without warranty of any kind. Use at your own risk.
 
 Download load Nordic DFU App for flashing the firmware
 Downlaod ZIP-File of Bootloader 
