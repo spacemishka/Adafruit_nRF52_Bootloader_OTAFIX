@@ -1,3 +1,20 @@
+## THIS IS REPSOITORY IS SPECIFICALLY FOR THE ELECROW THINKNODE M1
+
+
+Download load Nordic DFU App for flashing the firmware
+Downlaod ZIP-File of Bootloader 
+
+- Double-Press Reset-Button to Enter USB-DFU (Your setting WON'T be erased when flashing the Bootloader)
+- flash the bootloader with the adafruit-nrfutil (Filename may change, COM-Port might be different as well)
+
+e.g.:  adafruit-nrfutil --verbose dfu serial --package elecrow_thinknode_m1_bootloader-0.4_s140_6.1.1.zip -p COM3 -b 115200
+
+WARNING: After flashing the firmware the M1 will boot into BLE-DFU. Use the Nordic DFU App for you mobile
+
+-> FIRMWARE-FORK to use https://github.com/spacemishka/MeshCore
+
+After Flashing the Meshcore Firmware it will reboot. 
+
 # Adafruit nRF52 Bootloader with Enhanced OTA DFU
 
 ## Changes in OTAFIX 2.1
@@ -32,6 +49,8 @@
   - **XIAO NRF52 BLE / SENSE** → `XIAO_DFU`
 
 ---
+
+
 
 ## Boards supported
 
