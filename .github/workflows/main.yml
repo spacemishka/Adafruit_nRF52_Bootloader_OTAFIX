@@ -16,6 +16,7 @@ jobs:
       matrix:
         board:
           - elecrow_thinknode_m1
+          - wismesh_tag
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
